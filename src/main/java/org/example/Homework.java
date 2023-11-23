@@ -10,10 +10,11 @@ public class Homework {
             this.balance = 0.0;
         }
 
-        public void put(double amount) {
+        public int put(double amount) {
             if (amount > 0) {
                 balance += amount;
             }
+            return 0;
         }
 
         public void take(double amount) {
